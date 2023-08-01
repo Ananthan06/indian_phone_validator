@@ -1,7 +1,7 @@
 name: indian_phone_validator
 description: Simple method to check whether given number is in valid Indian format.
 version: 1.0.0
-# homepage: https://www.example.com
+# homepage: https://github.com/Ananthan06/indian_phone_validator
 
 environment:
   sdk: '>=2.17.6 <3.0.0'
