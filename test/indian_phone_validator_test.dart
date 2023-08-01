@@ -3,14 +3,17 @@ import 'package:test/test.dart';
 
 void main() {
   group('A group of tests', () {
-    final awesome = Awesome();
+    final awesome = IndianPhoneValidator();
 
     setUp(() {
       // Additional setup goes here.
     });
 
     test('First Test', () {
-      expect(awesome.isAwesome, isTrue);
+      expect(awesome.isAValidPhoneNumber("9898777777"), isTrue);
+    });
+    test('First Test', () {
+      expect(awesome.isAValidPhoneNumber("998777777"), isTrue);
     });
   });
 }
